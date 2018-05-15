@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Header</h1>
+    <p>
+        {{ text }}
+    </p>
+    <p>
+        {{ number }}
+    </p>
+    <ol>
+        {% for user in users %}
+        <li>
+            {{ user.name }}
+        </li>
+        {% endfor %}
+    </ol>
+</body>
+</html>

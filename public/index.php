@@ -1,11 +1,10 @@
 <?php
 
-use MVCModules\Controller\MainController as Controller;
-use MVCModules\View\MainView as View;
-use MVCModules\Services\Randomizer as Randomizer;
+declare(strict_types = 1);
 
-require_once __DIR__ . "/../app/start.php";
+use \Models\Controller\HomeController;
 
-$controller = new Controller();
-$view = new View();
-$randomizer = new Randomizer();
+require_once "../app/start.php";
+
+$controller = new HomeController();
+$controller->run("home.html.twig");

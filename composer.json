@@ -1,7 +1,11 @@
 {
     "autoload": {
         "psr-0": {
-            "MVCModules": "app"
+            "Models": "app",
+            "AncestorModels": "built-in-framework"
         }
+    },
+    "require": {
+        "twig/twig": "^2.0"
     }
 }
