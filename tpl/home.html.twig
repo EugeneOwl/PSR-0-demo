@@ -1,11 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-</head>
-<body>
-    <h1>Header</h1>
+{% extends "base.html.twig" %}
+
+{% block contents %}
     <p>
         {{ text }}
     </p>
@@ -14,10 +9,16 @@
     </p>
     <ol>
         {% for user in users %}
-        <li>
-            {{ user.name }}
-        </li>
+            <li>
+                {{ user.name }}
+            </li>
         {% endfor %}
     </ol>
-</body>
-</html>
+    <a href="quizPage.php">To quiz</a>
+{% endblock %}
+
+{% block toMain %}
+    <div id="toMain">
+        <a href="">Up</a>
+    </div>
+{% endblock %}

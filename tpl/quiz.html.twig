@@ -1,0 +1,19 @@
+{% extends "base.html.twig" %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" href="css/quiz.css">
+{% endblock %}
+
+{% block contents %}
+    <form method="POST">
+        <input type="text" placeholder="name" name="name">
+        <input type="submit" value="submit">
+    </form>
+    <p>
+        {{ inputStatus }}
+    </p>
+    <p>
+        {{ clearName }}
+    </p>
+{% endblock %}

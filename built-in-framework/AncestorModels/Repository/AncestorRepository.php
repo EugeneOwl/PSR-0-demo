@@ -7,7 +7,7 @@ namespace AncestorModels\Repository;
 
 use \AncestorModels\Repository\PDO as MyPDO;
 
-class AncestorRepository
+abstract class AncestorRepository
 {
     public function connection()
     {

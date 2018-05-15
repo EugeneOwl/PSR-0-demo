@@ -7,11 +7,13 @@ namespace Models\Controller;
 use \AncestorModels\Controller\AncestorController;
 use \Models\Service\TextGenerator;
 use \Models\Service\NumberGenerator;
-use \Models\Repository\UserRepository;
+use \Models\Service\UsersProcessor;
 
 class HomeController extends AncestorController
 {
-    public function run($tplName)
+    private const TPL_NAME = "home.html.twig";
+
+    public function run(): void
     {
         $textGenerator = new TextGenerator();
         $text = $textGenerator->generateText();
@@ -20,10 +22,11 @@ class HomeController extends AncestorController
         $numberGenerator->preventRandom();
         $number = $numberGenerator->generateNumber(100, 105);
 
-        $userRepo = new UserRepository();
-        $users = $userRepo->getUsers();
+        $userProcessor = new UsersProcessor();
+        $users = $userProcessor->getValidUsers();
 
-        $this->render($tplName, [
+        $this->render(self::TPL_NAME, [
+            "header" => "Home page",
             "text"   => $text,
             "number" => $number,
             "users"  => $users,

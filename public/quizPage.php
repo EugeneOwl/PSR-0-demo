@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-use \Models\Controller\HomeController;
+use \Models\Controller\QuizController;
 
 require_once "../app/start.php";
 
-$controller = new HomeController();
+$controller = new QuizController();
 $controller->run();
