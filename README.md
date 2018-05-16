@@ -17,9 +17,10 @@ projectName
   >autoload.php
 composer.json
 
-	You can create the whole architecture (except vendor directory) manually then write needed instruction to «composer.json» file and than run «composer dump-autoload -o» what will create a vendor directory with autoload file and its modules. Also you can just install ready to use Symfony skeleton.
-	Than in your heart-controller you just require autoload file and in case you followed the PSR rules you have no need more for reqiuring any files. Also you can use «use» instruction to shorten the length of full class name.
-	The instruction in «composer.json» file can look this way
+>You can create the whole architecture (except vendor directory) manually then write needed instruction to «composer.json» file and than run «composer dump-autoload -o» what will create a vendor directory with autoload file and its modules. Also you can just install ready to use Symfony skeleton.
+>Than in your heart-controller you just require autoload file and in case you followed the PSR rules you have no need more for reqiuring any files. Also you can use «use» instruction to shorten the length of full class name.
+>The instruction in «composer.json» file can look this way
+```
 {
     "autoload": {
         "psr-0": {
@@ -27,15 +28,17 @@ composer.json
         }
     }
 }
+```
 according psr-0 protocol or this way
-
+```
 {
     "autoload": {
         "psr-4": {
-            "Models\\": "app/Models"
+            "Models\\\\": "app/Models"
         }
     }
 }
+```
 according psr-4 protocol.
 
 #P.S.
