@@ -2,20 +2,22 @@
 
   The main idea is to build directories and namespaces system special way to avoid any **require()** [**include()**] calls during creating new models. You build your project according the rules and composer with it's autoload module is going throw the whole hierarchy of the directories which contain your models etc according the instruction in «composer.json» file and require them automatically behind the scenes.
   So the base structure of a project can look this way
--projectName
- -\>app\n
-  -\>Models
-   -\>Controller
-   -\>Repository
-   -\>Service
-   -\>View
- -\>public
-  -\>index.php
- -\>tpl
- -\>vendor
-  -\>composer
-  -\>autoload.php
--composer.json
+```
+projectName
+ \>app
+  \>Models
+   \>Controller
+   \>Repository
+   \>Service
+   \>View
+ \>public
+  \>index.php
+ \>tpl
+ \>vendor
+  \>composer
+  \>autoload.php
+composer.json
+```
 
   You can create the whole architecture (except vendor directory) manually then write needed instruction to «composer.json» file and than run «composer dump-autoload -o» what will create a vendor directory with autoload file and its modules. Also you can just install ready to use Symfony skeleton.
   Than in your heart-controller you just require autoload file and in case you followed the PSR rules you have no need more for reqiuring any files. Also you can use «use» instruction to shorten the length of full class name.
