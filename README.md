@@ -4,18 +4,18 @@
   So the base structure of a project can look this way
 ```
 projectName
-    >app
-        >Models
-            >Controller
-            >Repository
-            >Service
-            >View
-    >public
-        >index.php
-    >tpl
-    >vendor
-        >composer
-        >autoload.php
+    app
+        Models
+            Controller
+            Repository
+            Service
+            View
+    public
+        index.php
+    tpl
+    vendor
+        composer
+        autoload.php
 composer.json
 ```
 
