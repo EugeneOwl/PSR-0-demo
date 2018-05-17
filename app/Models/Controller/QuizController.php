@@ -14,7 +14,7 @@ class QuizController extends AncestorController
     public function run()
     {
         $formProcessor = new QuizFormProcessor();
-        $clearName = $formProcessor->getClearName($_POST["name"]);
+        $clearName = $formProcessor->getClearName($_POST["name"] ?? null);
         $inputStatus = $formProcessor->getInputStatus($_POST);
 
         $this->render(self::TPL_NAME, [

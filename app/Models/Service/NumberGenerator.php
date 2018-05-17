@@ -13,15 +13,10 @@ class NumberGenerator extends AncestorService
 
     public function generateNumber(int $min = self::DEFAULT_MIN, int $max = self::DEFAULT_MAX): int
     {
-        try {
-            if ($min > $max) {
-                throw new \Exception("Min must be lower than max.");
-            }
-            return mt_rand($min, $max);
-        } catch (\Exception $exception) {
-            error_log($exception->getMessage());
-            return -1;
+        if ($min > $max) {
+            throw new \Exception("Min must be lower than max.");
         }
+        return mt_rand($min, $max);
     }
 
     public function preventRandom(): void

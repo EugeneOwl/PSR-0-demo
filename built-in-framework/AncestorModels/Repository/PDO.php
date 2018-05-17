@@ -4,6 +4,7 @@ declare(strict_types = 1);
 
 namespace AncestorModels\Repository;
 
+use \Models\Config\Config;
 
 class PDO
 {
@@ -21,7 +22,7 @@ class PDO
 
     private static function setParameters(): void
     {
-        $parameters = parse_ini_file("../.env");
+        $parameters = parse_ini_file(Config::ENV_FILE);
         self::$charset = $parameters["charset"];
         self::$dbname = $parameters["dbname"];
         self::$dsn = $parameters["dsn"];

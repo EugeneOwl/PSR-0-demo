@@ -1,2 +1,32 @@
 [17-May-2018 08:52:15 Europe/Moscow] Min must be lower than max.
 [17-May-2018 08:52:24 Europe/Moscow] Min must be lower than max.
+[17-May-2018 12:38:39 Europe/Moscow] Min must be lower than max.
+[17-May-2018 12:38:54 Europe/Moscow] PHP Fatal error:  Cannot use try without catch or finally in /home/eugene/PhpstormProjects/PSR-0-demo/app/Models/Service/NumberGenerator.php on line 16
+[17-May-2018 12:38:54 Europe/Moscow] PHP Stack trace:
+[17-May-2018 12:38:54 Europe/Moscow] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/public/index.php:0
+[17-May-2018 12:38:54 Europe/Moscow] PHP   2. Models\Controller\HomeController->run() /home/eugene/PhpstormProjects/PSR-0-demo/public/index.php:10
+[17-May-2018 12:38:54 Europe/Moscow] PHP   3. spl_autoload_call() /home/eugene/PhpstormProjects/PSR-0-demo/app/Models/Controller/HomeController.php:21
+[17-May-2018 12:38:54 Europe/Moscow] PHP   4. Composer\Autoload\ClassLoader->loadClass() /home/eugene/PhpstormProjects/PSR-0-demo/app/Models/Controller/HomeController.php:21
+[17-May-2018 12:38:54 Europe/Moscow] PHP   5. Composer\Autoload\includeFile() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/composer/ClassLoader.php:322
+[17-May-2018 12:39:25 Europe/Moscow] PHP Fatal error:  Uncaught Exception: Min must be lower than max. in /home/eugene/PhpstormProjects/PSR-0-demo/app/Models/Service/NumberGenerator.php:17
+[17-May-2018 12:41:06 Europe/Moscow] Min must be lower than max.
+[17-May-2018 12:41:39 Europe/Moscow] Min must be lower than max.
+[17-May-2018 13:21:32 Europe/Moscow] Min must be lower than max.
+[17-May-2018 13:23:45 Europe/Moscow] Min must be lower than max.
+[17-May-2018 13:23:45 Europe/Moscow] invalid data source name
+[17-May-2018 13:23:56 Europe/Moscow] Min must be lower than max.
+[17-May-2018 13:24:54 Europe/Moscow] Min must be lower than max.
+[17-May-2018 13:32:19 Europe/Moscow] Min must be lower than max.
+[17-May-2018 13:32:32 Europe/Moscow] Min must be lower than max.
+[17-May-2018 13:33:09 Europe/Moscow] Min must be lower than max.
+[17-May-2018 13:38:04 Europe/Moscow] Min must be lower than max.
+Min must be lower than max.Min must be lower than max.Min must be lower than max.Min must be lower than max.Min must be lower than max.[17-May-2018 14:01:16 Europe/Moscow] Min must be lower than max.
+[17-May-2018 14:01:29 Europe/Moscow] Min must be lower than max.
+[17-May-2018 14:03:25 Europe/Moscow] Min must be lower than max.
+[17-May-2018 14:03:30 Europe/Moscow] Min must be lower than max.
+[17-May-2018 11:05:00 UTC] Min must be lower than max.
+[17-May-2018 11:06:45 UTC] Min must be lower than max.
+[17-May-2018 11:08:01 UTC] Min must be lower than max.
+[17-May-2018 11:08:22 UTC] Min must be lower than max.
+[17-May-2018 14:09:02 Europe/Moscow] Min must be lower than max.
+[17-May-2018 11:09:04 UTC] Min must be lower than max.

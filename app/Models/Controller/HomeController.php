@@ -20,7 +20,12 @@ class HomeController extends AncestorController
 
         $numberGenerator = new NumberGenerator();
         $numberGenerator->preventRandom();
-        $number = $numberGenerator->generateNumber(100, 105);
+        try {
+            $number = $numberGenerator->generateNumber(100, -105);
+        } catch (\Exception $exception) {
+            error_log($exception->getMessage());
+            $number = -1;
+        }
 
         $userProcessor = new UsersProcessor();
         $users = $userProcessor->getValidUsers();

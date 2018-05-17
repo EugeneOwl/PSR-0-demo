@@ -4,10 +4,12 @@ declare(strict_types = 1);
 
 namespace AncestorModels\Controller;
 
+use \Models\Config\Config;
+use \AncestorModels\AncestorModel;
 
-abstract class AncestorController
+abstract class AncestorController extends AncestorModel
 {
-    private const TPL_PATH = "../tpl/";
+    private const TPL_PATH = Config::TPL_DIRECTORY;
 
     public abstract function run();
 
