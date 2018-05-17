@@ -55,7 +55,7 @@ class NumberGeneratorTest extends TestCase
     }
 
     /**
-     * @
+     * @test
      * @dataProvider providerGenerateNumber
      */
     public function preventRandom($min, $max)
@@ -64,9 +64,13 @@ class NumberGeneratorTest extends TestCase
         $max = $max ?? $this->fixture::DEFAULT_MAX;
 
         $this->fixture->preventRandom();
+        $num1 = $this->fixture->generateNumber($min, $max);
+        $this->fixture->preventRandom();
+        $num2 = $this->fixture->generateNumber($min, $max);
+
         $this->assertEquals(
-            $this->fixture->generateNumber($min, $max),
-            $this->fixture->generateNumber($min, $max)
+            $num1,
+            $num2
         );
     }
 

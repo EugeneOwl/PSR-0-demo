@@ -11,7 +11,7 @@ class UsersProcessor extends AncestorService
 {
     private const USER_VALID_LENGTH = 6;
 
-    private function isUserValid(array $user): bool
+    public function isUserValid(array $user): bool
     {
         return strlen($user["name"]) < self::USER_VALID_LENGTH;
     }

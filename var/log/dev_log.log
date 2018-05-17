@@ -30,3 +30,949 @@ Min must be lower than max.Min must be lower than max.Min must be lower than max
 [17-May-2018 11:08:22 UTC] Min must be lower than max.
 [17-May-2018 14:09:02 Europe/Moscow] Min must be lower than max.
 [17-May-2018 11:09:04 UTC] Min must be lower than max.
+[17-May-2018 14:20:02 Europe/Moscow] Min must be lower than max.
+[17-May-2018 11:24:04 UTC] Min must be lower than max.
+[17-May-2018 11:24:04 UTC] PHP ArgumentCountError:  Too few arguments to function UnitTests\Models\Service\UserProcessorTest::isUserValidTest(), 0 passed in /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 1145 and exactly 2 expected in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 21
+[17-May-2018 11:24:04 UTC] PHP Stack trace:
+[17-May-2018 11:24:04 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:24:04 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:24:04 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:24:04 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:24:04 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:24:04 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:24:04 UTC] PHP   7. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:24:04 UTC] PHP   8. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:24:04 UTC] PHP   9. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:24:04 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:24:04 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:24:04 UTC] PHP ArgumentCountError:  Too few arguments to function UnitTests\Models\Service\UserProcessorTest::isUserValidTest(), 0 passed in /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 1145 and exactly 2 expected in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 21
+[17-May-2018 11:24:04 UTC] PHP Stack trace:
+[17-May-2018 11:24:04 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:24:04 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:24:04 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:24:04 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:24:04 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:24:04 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:24:04 UTC] PHP   7. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:24:04 UTC] PHP   8. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:24:04 UTC] PHP   9. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:24:04 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:24:04 UTC] PHP ArgumentCountError:  Too few arguments to function UnitTests\Models\Service\UserProcessorTest::isUserValidTest(), 0 passed in /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 1145 and exactly 2 expected in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 21
+[17-May-2018 11:24:04 UTC] PHP Stack trace:
+[17-May-2018 11:24:04 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:24:04 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:24:04 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:24:04 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:24:04 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:24:04 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:24:04 UTC] PHP   7. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:24:04 UTC] PHP   8. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:24:04 UTC] PHP   9. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:24:04 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:24:30 UTC] Min must be lower than max.
+[17-May-2018 11:24:58 UTC] Min must be lower than max.
+[17-May-2018 11:26:49 UTC] Min must be lower than max.
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:26:49 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:26:49 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:26:49 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:26:49 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:26:49 UTC] PHP Error:  Call to private method Models\Service\UsersProcessor::isUserValid() from context 'UnitTests\Models\Service\UserProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 23
+[17-May-2018 11:26:49 UTC] PHP Stack trace:
+[17-May-2018 11:26:49 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:26:49 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:26:49 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:26:49 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:26:49 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:26:49 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:26:49 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:26:49 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:26:49 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:27:02 UTC] Min must be lower than max.
+[17-May-2018 11:27:02 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:02 UTC] PHP Stack trace:
+[17-May-2018 11:27:02 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:02 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:02 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:02 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:02 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:02 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:02 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:02 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:27:02 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:27:02 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:02 UTC] PHP Stack trace:
+[17-May-2018 11:27:02 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:02 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:02 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:02 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:02 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:02 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:02 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:02 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:27:02 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:02 UTC] PHP Stack trace:
+[17-May-2018 11:27:02 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:02 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:02 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:02 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:02 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:02 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:02 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:02 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:27:02 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:02 UTC] PHP Stack trace:
+[17-May-2018 11:27:02 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:02 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:02 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:02 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:02 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:02 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:02 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:02 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:27:02 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:27:02 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:02 UTC] PHP Stack trace:
+[17-May-2018 11:27:02 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:02 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:02 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:02 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:02 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:02 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:02 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:02 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:27:02 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:02 UTC] PHP Stack trace:
+[17-May-2018 11:27:02 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:02 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:02 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:02 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:02 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:02 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:02 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:02 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:02 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:27:48 UTC] Min must be lower than max.
+[17-May-2018 11:27:48 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:48 UTC] PHP Stack trace:
+[17-May-2018 11:27:48 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:48 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:48 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:48 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:48 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:48 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:48 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:48 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:27:48 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:27:48 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:48 UTC] PHP Stack trace:
+[17-May-2018 11:27:48 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:48 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:48 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:48 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:48 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:48 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:48 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:48 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:27:48 UTC] PHP TypeError:  Return value of UnitTests\Models\Service\UserProcessorTest::isUserValidTest() must be of the type boolean, none returned in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 24
+[17-May-2018 11:27:48 UTC] PHP Stack trace:
+[17-May-2018 11:27:48 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:27:48 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:27:48 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:27:48 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:27:48 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:27:48 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:27:48 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:27:48 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:27:48 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:28:47 UTC] Min must be lower than max.
+[17-May-2018 11:30:02 UTC] Min must be lower than max.
+[17-May-2018 11:30:29 UTC] Min must be lower than max.
+[17-May-2018 14:30:41 Europe/Moscow] Min must be lower than max.
+[17-May-2018 11:33:49 UTC] Min must be lower than max.
+[17-May-2018 11:33:58 UTC] Min must be lower than max.
+[17-May-2018 11:36:45 UTC] Min must be lower than max.
+[17-May-2018 11:36:56 UTC] Min must be lower than max.
+[17-May-2018 11:37:09 UTC] Min must be lower than max.
+[17-May-2018 11:38:01 UTC] Min must be lower than max.
+[17-May-2018 11:38:06 UTC] Min must be lower than max.
+[17-May-2018 11:39:06 UTC] Min must be lower than max.
+[17-May-2018 11:41:16 UTC] Min must be lower than max.
+[17-May-2018 11:41:28 UTC] Min must be lower than max.
+[17-May-2018 11:41:42 UTC] Min must be lower than max.
+[17-May-2018 11:41:56 UTC] Min must be lower than max.
+[17-May-2018 11:42:25 UTC] Min must be lower than max.
+[17-May-2018 11:42:31 UTC] Min must be lower than max.
+[17-May-2018 11:42:41 UTC] Min must be lower than max.
+[17-May-2018 11:42:43 UTC] Min must be lower than max.
+[17-May-2018 11:42:53 UTC] Min must be lower than max.
+[17-May-2018 11:43:02 UTC] Min must be lower than max.
+[17-May-2018 11:43:19 UTC] Min must be lower than max.
+[17-May-2018 11:43:43 UTC] Min must be lower than max.
+[17-May-2018 11:44:03 UTC] Min must be lower than max.
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:44:03 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:44:03 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:44:03 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:44:03 UTC] PHP  12. UnitTests\Models\Service\UserProcessorTest->isUserValidTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:44:03 UTC] PHP Error:  Call to a member function isUserValid() on null in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 27
+[17-May-2018 11:44:03 UTC] PHP Stack trace:
+[17-May-2018 11:44:03 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:44:03 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:44:03 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:44:03 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:44:03 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:44:03 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   8. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:44:03 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:44:03 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:44:03 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:44:06 UTC] Min must be lower than max.
+[17-May-2018 11:44:11 UTC] Min must be lower than max.
+[17-May-2018 11:44:25 UTC] Min must be lower than max.
+[17-May-2018 11:44:37 UTC] Min must be lower than max.
+[17-May-2018 11:45:14 UTC] Min must be lower than max.
+[17-May-2018 11:45:51 UTC] Min must be lower than max.
+[17-May-2018 11:46:09 UTC] Min must be lower than max.
+[17-May-2018 11:46:38 UTC] Min must be lower than max.
+[17-May-2018 11:46:48 UTC] Min must be lower than max.
+[17-May-2018 11:46:59 UTC] Min must be lower than max.
+[17-May-2018 11:50:33 UTC] Min must be lower than max.
+[17-May-2018 11:50:39 UTC] Min must be lower than max.
+[17-May-2018 11:54:08 UTC] Min must be lower than max.
+[17-May-2018 11:54:16 UTC] Min must be lower than max.
+[17-May-2018 11:54:22 UTC] Min must be lower than max.
+[17-May-2018 11:55:32 UTC] Min must be lower than max.
+[17-May-2018 11:55:32 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 64
+[17-May-2018 11:55:32 UTC] PHP Stack trace:
+[17-May-2018 11:55:32 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:55:32 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:55:32 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:55:32 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:55:32 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:55:32 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:55:32 UTC] PHP   7. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:55:32 UTC] PHP   8. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:55:32 UTC] PHP   9. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:55:32 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:55:32 UTC] PHP  11. UnitTests\Models\Service\UserProcessorTest->testOne() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 11:55:32 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 64
+[17-May-2018 11:55:32 UTC] PHP Stack trace:
+[17-May-2018 11:55:32 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:55:32 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:55:32 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:55:32 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:55:32 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:55:32 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:55:32 UTC] PHP   7. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:55:32 UTC] PHP   8. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:55:32 UTC] PHP   9. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:55:32 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 11:55:32 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/UserProcessorTest.php on line 64
+[17-May-2018 11:55:32 UTC] PHP Stack trace:
+[17-May-2018 11:55:32 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 11:55:32 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 11:55:32 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 11:55:32 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 11:55:32 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 11:55:32 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:55:32 UTC] PHP   7. UnitTests\Models\Service\UserProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 11:55:32 UTC] PHP   8. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 11:55:32 UTC] PHP   9. UnitTests\Models\Service\UserProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 11:55:32 UTC] PHP  10. UnitTests\Models\Service\UserProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 11:55:52 UTC] Min must be lower than max.
+[17-May-2018 11:55:57 UTC] Min must be lower than max.
+[17-May-2018 11:56:11 UTC] Min must be lower than max.
+[17-May-2018 11:56:18 UTC] Min must be lower than max.
+[17-May-2018 11:56:30 UTC] Min must be lower than max.
+[17-May-2018 11:56:36 UTC] Min must be lower than max.
+[17-May-2018 11:56:43 UTC] Min must be lower than max.
+[17-May-2018 11:56:59 UTC] Min must be lower than max.
+[17-May-2018 11:57:39 UTC] Min must be lower than max.
+[17-May-2018 11:58:02 UTC] Min must be lower than max.
+[17-May-2018 11:58:08 UTC] Min must be lower than max.
+[17-May-2018 11:58:19 UTC] Min must be lower than max.
+[17-May-2018 11:58:45 UTC] Min must be lower than max.
+[17-May-2018 11:59:18 UTC] Min must be lower than max.
+[17-May-2018 11:59:26 UTC] Min must be lower than max.
+[17-May-2018 11:59:40 UTC] Min must be lower than max.
+[17-May-2018 11:59:52 UTC] Min must be lower than max.
+[17-May-2018 12:00:01 UTC] Min must be lower than max.
+[17-May-2018 12:00:13 UTC] Min must be lower than max.
+[17-May-2018 12:00:21 UTC] Min must be lower than max.
+[17-May-2018 12:00:26 UTC] Min must be lower than max.
+[17-May-2018 12:00:40 UTC] Min must be lower than max.
+[17-May-2018 12:00:52 UTC] Min must be lower than max.
+[17-May-2018 12:01:01 UTC] Min must be lower than max.
+[17-May-2018 12:01:12 UTC] Min must be lower than max.
+[17-May-2018 12:04:45 UTC] Min must be lower than max.
+[17-May-2018 12:12:37 UTC] Min must be lower than max.
+[17-May-2018 12:12:38 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 25
+[17-May-2018 12:12:38 UTC] PHP Stack trace:
+[17-May-2018 12:12:38 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 12:12:38 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 12:12:38 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 12:12:38 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 12:12:38 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 12:12:38 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 12:12:38 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 12:12:38 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 12:12:38 UTC] PHP  12. UnitTests\Models\Service\QuizFormProcessorTest->getClearName() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 12:12:38 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 25
+[17-May-2018 12:12:38 UTC] PHP Stack trace:
+[17-May-2018 12:12:38 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 12:12:38 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 12:12:38 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 12:12:38 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 12:12:38 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 12:12:38 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 12:12:38 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 12:12:38 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 12:12:38 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 25
+[17-May-2018 12:12:38 UTC] PHP Stack trace:
+[17-May-2018 12:12:38 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 12:12:38 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 12:12:38 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 12:12:38 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 12:12:38 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 12:12:38 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 12:12:38 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 12:12:38 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 12:12:38 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 25
+[17-May-2018 12:12:38 UTC] PHP Stack trace:
+[17-May-2018 12:12:38 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 12:12:38 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 12:12:38 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 12:12:38 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 12:12:38 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 12:12:38 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 12:12:38 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 12:12:38 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 12:12:38 UTC] PHP  12. UnitTests\Models\Service\QuizFormProcessorTest->getClearName() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 12:12:38 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 25
+[17-May-2018 12:12:38 UTC] PHP Stack trace:
+[17-May-2018 12:12:38 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 12:12:38 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 12:12:38 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 12:12:38 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 12:12:38 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 12:12:38 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 12:12:38 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 12:12:38 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 12:12:38 UTC] PHP Error:  Call to undefined function UnitTests\Models\Service\assertTrue() in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 25
+[17-May-2018 12:12:38 UTC] PHP Stack trace:
+[17-May-2018 12:12:38 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 12:12:38 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 12:12:38 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 12:12:38 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 12:12:38 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 12:12:38 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 12:12:38 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 12:12:38 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 12:12:38 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 12:12:47 UTC] Min must be lower than max.
+[17-May-2018 14:59:48 UTC] Min must be lower than max.
+[17-May-2018 14:59:59 UTC] Min must be lower than max.
+[17-May-2018 15:00:09 UTC] Min must be lower than max.
+[17-May-2018 15:00:52 UTC] Min must be lower than max.
+[17-May-2018 15:01:09 UTC] Min must be lower than max.
+[17-May-2018 15:01:30 UTC] Min must be lower than max.
+[17-May-2018 15:01:57 UTC] Min must be lower than max.
+[17-May-2018 15:16:44 UTC] Min must be lower than max.
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 15:16:44 UTC] PHP  12. UnitTests\Models\Service\QuizFormProcessorTest->isDataValid() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 15:16:44 UTC] PHP  12. UnitTests\Models\Service\QuizFormProcessorTest->isDataValid() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 15:16:44 UTC] PHP  12. UnitTests\Models\Service\QuizFormProcessorTest->isDataValid() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 15:16:44 UTC] PHP Error:  Call to private method Models\Service\QuizFormProcessor::isDataValid() from context 'UnitTests\Models\Service\QuizFormProcessorTest' in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 45
+[17-May-2018 15:16:44 UTC] PHP Stack trace:
+[17-May-2018 15:16:44 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:16:44 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:16:44 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:16:44 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:16:44 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:16:44 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:16:44 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:16:44 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:16:44 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 15:21:28 UTC] Min must be lower than max.
+[17-May-2018 15:21:28 UTC] PHP TypeError:  htmlspecialchars() expects parameter 1 to be string, null given in /home/eugene/PhpstormProjects/PSR-0-demo/built-in-framework/AncestorModels/Service/AncestorFormProcessorService.php on line 12
+[17-May-2018 15:21:28 UTC] PHP Stack trace:
+[17-May-2018 15:21:28 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:21:28 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:21:28 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:21:28 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:21:28 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:21:28 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:21:28 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:21:28 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 15:21:28 UTC] PHP  12. UnitTests\Models\Service\QuizFormProcessorTest->isDataValid() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 15:21:28 UTC] PHP  13. Models\Service\QuizFormProcessor->isDataValid() /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php:45
+[17-May-2018 15:21:28 UTC] PHP  14. Models\Service\QuizFormProcessor->isInputSafe() /home/eugene/PhpstormProjects/PSR-0-demo/app/Models/Service/QuizFormProcessor.php:31
+[17-May-2018 15:21:28 UTC] PHP  15. htmlspecialchars() /home/eugene/PhpstormProjects/PSR-0-demo/built-in-framework/AncestorModels/Service/AncestorFormProcessorService.php:12
+[17-May-2018 15:21:28 UTC] PHP TypeError:  htmlspecialchars() expects parameter 1 to be string, null given in /home/eugene/PhpstormProjects/PSR-0-demo/built-in-framework/AncestorModels/Service/AncestorFormProcessorService.php on line 12
+[17-May-2018 15:21:28 UTC] PHP Stack trace:
+[17-May-2018 15:21:28 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:21:28 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:21:28 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:21:28 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:21:28 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:21:28 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:21:28 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:21:28 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 15:21:28 UTC] PHP TypeError:  htmlspecialchars() expects parameter 1 to be string, null given in /home/eugene/PhpstormProjects/PSR-0-demo/built-in-framework/AncestorModels/Service/AncestorFormProcessorService.php on line 12
+[17-May-2018 15:21:28 UTC] PHP Stack trace:
+[17-May-2018 15:21:28 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 15:21:28 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 15:21:28 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 15:21:28 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 15:21:28 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 15:21:28 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 15:21:28 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 15:21:28 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 15:21:28 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 15:22:53 UTC] Min must be lower than max.
+[17-May-2018 15:33:33 UTC] Min must be lower than max.
+[17-May-2018 19:24:57 Europe/Moscow] Min must be lower than max.
+[17-May-2018 19:27:05 Europe/Moscow] Min must be lower than max.
+[17-May-2018 16:38:54 UTC] Min must be lower than max.
+[17-May-2018 16:38:54 UTC] PHP Error:  Cannot access private const Models\Service\QuizFormProcessor::SAFE_MESSAGE in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 74
+[17-May-2018 16:38:54 UTC] PHP Stack trace:
+[17-May-2018 16:38:54 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 16:38:54 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 16:38:54 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 16:38:54 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 16:38:54 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 16:38:54 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 16:38:54 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 16:38:54 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 16:38:54 UTC] PHP  12. UnitTests\Models\Service\QuizFormProcessorTest->getInputStatus() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 16:38:54 UTC] PHP Error:  Cannot access private const Models\Service\QuizFormProcessor::SAFE_MESSAGE in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 74
+[17-May-2018 16:38:54 UTC] PHP Stack trace:
+[17-May-2018 16:38:54 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 16:38:54 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 16:38:54 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 16:38:54 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 16:38:54 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 16:38:54 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 16:38:54 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 16:38:54 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 16:38:54 UTC] PHP Error:  Cannot access private const Models\Service\QuizFormProcessor::SAFE_MESSAGE in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 74
+[17-May-2018 16:38:54 UTC] PHP Stack trace:
+[17-May-2018 16:38:54 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 16:38:54 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 16:38:54 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 16:38:54 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 16:38:54 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 16:38:54 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 16:38:54 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 16:38:54 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 16:38:54 UTC] PHP Error:  Cannot access private const Models\Service\QuizFormProcessor::SAFE_MESSAGE in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 74
+[17-May-2018 16:38:54 UTC] PHP Stack trace:
+[17-May-2018 16:38:54 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 16:38:54 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 16:38:54 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 16:38:54 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 16:38:54 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 16:38:54 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 16:38:54 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 16:38:54 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 16:38:54 UTC] PHP  12. UnitTests\Models\Service\QuizFormProcessorTest->getInputStatus() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:1145
+[17-May-2018 16:38:54 UTC] PHP Error:  Cannot access private const Models\Service\QuizFormProcessor::SAFE_MESSAGE in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 74
+[17-May-2018 16:38:54 UTC] PHP Stack trace:
+[17-May-2018 16:38:54 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 16:38:54 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 16:38:54 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 16:38:54 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 16:38:54 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 16:38:54 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 16:38:54 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 16:38:54 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->runTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:840
+[17-May-2018 16:38:54 UTC] PHP Error:  Cannot access private const Models\Service\QuizFormProcessor::SAFE_MESSAGE in /home/eugene/PhpstormProjects/PSR-0-demo/tests/unit/Models/Service/QuizFormProcessorTest.php on line 74
+[17-May-2018 16:38:54 UTC] PHP Stack trace:
+[17-May-2018 16:38:54 UTC] PHP   1. {main}() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:0
+[17-May-2018 16:38:54 UTC] PHP   2. PHPUnit\TextUI\Command::main() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/phpunit:53
+[17-May-2018 16:38:54 UTC] PHP   3. PHPUnit\TextUI\Command->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:151
+[17-May-2018 16:38:54 UTC] PHP   4. PHPUnit\TextUI\TestRunner->doRun() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/Command.php:198
+[17-May-2018 16:38:54 UTC] PHP   5. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:529
+[17-May-2018 16:38:54 UTC] PHP   6. PHPUnit\Framework\TestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   7. PHPUnit\Framework\DataProviderTestSuite->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   8. UnitTests\Models\Service\QuizFormProcessorTest->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestSuite.php:776
+[17-May-2018 16:38:54 UTC] PHP   9. PHPUnit\Framework\TestResult->run() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:798
+[17-May-2018 16:38:54 UTC] PHP  10. UnitTests\Models\Service\QuizFormProcessorTest->runBare() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestResult.php:645
+[17-May-2018 16:38:54 UTC] PHP  11. UnitTests\Models\Service\QuizFormProcessorTest->onNotSuccessfulTest() /home/eugene/PhpstormProjects/PSR-0-demo/vendor/phpunit/phpunit/src/Framework/TestCase.php:941
+[17-May-2018 16:39:15 UTC] Min must be lower than max.
+[17-May-2018 16:40:06 UTC] Min must be lower than max.
+[17-May-2018 16:40:17 UTC] Min must be lower than max.
+[17-May-2018 16:40:31 UTC] Min must be lower than max.
+[17-May-2018 16:40:37 UTC] Min must be lower than max.
+[17-May-2018 16:41:56 UTC] Min must be lower than max.
+[17-May-2018 16:45:02 UTC] Min must be lower than max.
+[17-May-2018 16:45:13 UTC] Min must be lower than max.
+[17-May-2018 17:15:39 UTC] Min must be lower than max.
+[17-May-2018 20:16:43 Europe/Moscow] Min must be lower than max.
+[17-May-2018 17:24:21 UTC] Min must be lower than max.
+[17-May-2018 17:25:26 UTC] Min must be lower than max.
+[17-May-2018 17:25:34 UTC] Min must be lower than max.
+[17-May-2018 17:26:29 UTC] Min must be lower than max.
+[17-May-2018 17:26:37 UTC] Min must be lower than max.
+[17-May-2018 17:26:44 UTC] Min must be lower than max.
+[17-May-2018 17:26:55 UTC] Min must be lower than max.
+[17-May-2018 17:26:57 UTC] Min must be lower than max.
+[17-May-2018 17:29:38 UTC] Min must be lower than max.

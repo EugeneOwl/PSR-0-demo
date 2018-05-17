@@ -8,10 +8,10 @@ use \AncestorModels\Service\AncestorFormProcessorService;
 
 class QuizFormProcessor extends AncestorFormProcessorService
 {
-    private const SAFE_MESSAGE = "Safe input.";
-    private const UNSAFE_MESSAGE = "Dangerous input.";
-    private const EMPTY_MESSAGE = "Empty input.";
-    private const NOT_EMPTY_MESSAGE = "Not empty input.";
+    public const SAFE_MESSAGE = "Safe input.";
+    public const UNSAFE_MESSAGE = "Dangerous input.";
+    public const EMPTY_MESSAGE = "Empty input.";
+    public const NOT_EMPTY_MESSAGE = "Not empty input.";
 
     public function getClearName(?string $name): string
     {
@@ -25,10 +25,10 @@ class QuizFormProcessor extends AncestorFormProcessorService
         return $status;
     }
 
-    private function isDataValid(array $data): bool
+    public function isDataValid(array $data): bool
     {
         foreach ($data as $element) {
-            if (!$this->isInputSafe($element)) {
+            if (!$this->isInputSafe((string)$element)) {
                 return false;
             }
         }
