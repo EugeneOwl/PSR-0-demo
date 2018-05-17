@@ -1,11 +1,13 @@
 {
     "autoload": {
-        "psr-0": {
-            "Models": "app",
-            "AncestorModels": "built-in-framework"
+        "psr-4": {
+            "Models\\": "app/Models",
+            "AncestorModels\\": "built-in-framework/AncestorModels",
+            "UnitTests\\": "tests/unit"
         }
     },
     "require": {
-        "twig/twig": "^2.0"
+        "twig/twig": "^2.0",
+        "phpunit/phpunit": "^7.1"
     }
 }

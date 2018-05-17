@@ -14,7 +14,7 @@ class AncestorFormProcessorService extends AncestorService
 
     protected function cleanInput(?string $input): string
     {
-        return htmlspecialchars((string)$input);
+        return htmlspecialchars(trim((string)$input));
     }
 
     protected function isDataEmpty(?array $data): bool
